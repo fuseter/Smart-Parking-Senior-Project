@@ -1,0 +1,32 @@
+{
+  "name": "smartparking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.14",
+    "morgan": "^1.10.0",
+    "mqtt": "^4.3.4",
+    "nodemailer": "^6.7.2",
+    "nodemailer-express-handlebars": "^5.0.0",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "nodemon": "^2.0.15",
+    "typedarray-to-buffer": "^4.0.0",
+    "ws": "^8.5.0",
+    "yargs": "^17.3.1"
+  },
+  "devDependencies": {
+    "prettier": "2.5.1"
+  }
+}

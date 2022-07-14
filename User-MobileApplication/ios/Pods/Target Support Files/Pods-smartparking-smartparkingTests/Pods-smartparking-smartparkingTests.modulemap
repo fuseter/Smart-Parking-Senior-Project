@@ -1,0 +1,6 @@
+module Pods_smartparking_smartparkingTests {
+  umbrella header "Pods-smartparking-smartparkingTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

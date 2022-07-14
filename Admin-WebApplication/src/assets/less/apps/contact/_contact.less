@@ -1,0 +1,48 @@
+.@{class-prefix}-contact-card {
+    .ant-card-body {
+        padding: 0;
+    }
+
+    .ant-table-tbody>tr.ant-table-row-selected>td {
+        background: @primary-4;
+    }
+
+    .ant-table-thead>tr>th {
+        background: none;
+        border-bottom: none;
+        font-size: @h5-font-size;
+        line-height: @h5-font-size;
+        font-weight: 600;
+        padding: 14px 32px 32px;
+
+        &:nth-child(2),
+        &:nth-child(6) {
+            min-width: 200px;
+        }
+
+        &:before {
+            display: none;
+        }
+    }
+
+    .ant-table-tbody>tr>td {
+        border-bottom: none;
+        padding: 14px 32px;
+
+        &:first-child {
+            text-align: center;
+        }
+    }
+
+    .ant-avatar {
+        border: 2px solid @b-0;
+    }
+
+    .ant-pagination {
+        margin-right: 32px;
+
+        @media @sm {
+            margin-right: 16px;
+        }
+    }
+}
